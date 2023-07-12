@@ -22,7 +22,7 @@ class Api::ContactsController < ApplicationController
     private
   
     def contact_params
-      params.permit(:name, :phone, :address, :gender, :age)
+      params.permit(:name, :number, :address, :gender, :age)
     end
   end
   
